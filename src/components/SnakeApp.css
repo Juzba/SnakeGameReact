@@ -13,6 +13,11 @@
     text-align: center;
 }
 
+.snake p{
+    font-size: 50px;
+    color: aliceblue;
+}
+
 .snake .border{
     box-sizing: content-box;
     background-color: black;

@@ -78,7 +78,7 @@ const SnakeApp = () => {
 
 		if (foodPos) {
 			context.fillStyle = "#DC0018";
-			context.fillRect(foodPos.X, foodPos.Y, 50, 50);
+			context.fillRect(foodPos.X + 1, foodPos.Y + 1, 49, 49);
 		}
 	};
 
@@ -88,6 +88,7 @@ const SnakeApp = () => {
 			<div className='border'>
 				<canvas ref={canvasRef} id='canvas'></canvas>
 			</div>
+			<p>Score: 0</p>
 		</div>
 	);
 };
