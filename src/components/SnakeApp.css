@@ -1,0 +1,25 @@
+.snake {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(45deg, white, black);
+    margin: 0 auto;
+
+}
+
+.snake h1 {
+	font-size: 60px;
+    text-align: center;
+}
+
+.snake .border{
+    box-sizing: content-box;
+    background-color: black;
+    padding: 3px;
+    /* border-radius: 2px; */
+    box-shadow: rgba(255, 255, 255, 0.466) 0 0 35px;
+}
+
+.snake canvas{
+    background-color: rgb(42, 41, 41);
+}
