@@ -73,7 +73,7 @@ const SnakeApp = () => {
 		for (let i = 0; i < listSnake.length; i++) {
 			if(i === 0) context.fillStyle = "#d87204";
 			else context.fillStyle = "#d3832e";
-			context.fillRect(listSnake[i].X, listSnake[i].Y, 50, 50);
+			context.fillRect(listSnake[i].X +1, listSnake[i].Y +1, 49, 49);
 		}
 
 		if (foodPos) {
